@@ -1,0 +1,199 @@
+* {
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+nav {
+    color: black;
+}
+
+.image {
+    background: url(../dp.png) black;
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.dom {
+    background-color: black;
+    height: 2700px;
+    width: 100vw;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: 2em;
+    font-weight: bold;
+}
+
+.position {
+    position: relative;
+    font-size: 1.5em;
+    top: 3em;
+    text-align: center;
+    color: rgb(185, 185, 185);
+}
+
+.aboutme {
+    position: relative;
+    top: 200px;
+    color: white;
+    margin: 25px;
+
+}
+
+.skills {
+    position: relative;
+    top: 250px;
+    color: white;
+    margin-left: 25px;
+}
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 87vw;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);
+}
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    animation: progress 5500ms ease-in 1;
+}
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 75%;
+}
+
+.javascript {
+    width: 50%;
+}
+
+.bootstrap {
+    width: 30%;
+}
+
+.skills {
+    width: 100vw;
+}
+
+.survices {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.o {
+    height: 80px;
+    width: 80px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.s {
+    position: relative;
+    top: 350px;
+}
+
+.s h1 {
+    margin-left: 25px;
+    margin-bottom: 55px;
+    color: white;
+}
+
+.Design {
+
+    background-image: url(../ui-design.png);
+}
+
+.Code {
+
+    background-image: url(../coding.png);
+
+}
+
+.Launch {
+
+    background-image: url(../database-management.png);
+}
+
+.Objective {
+    position: relative;
+    top: 400px;
+    color: white;
+    margin: 25px;
+}
+
+.EDUCATIONALQUALIFICATION {
+    position: relative;
+    top: 450px;
+    color: white;
+    margin: 25px;
+
+}
+
+.l {
+    position: relative;
+    top: 490px;
+    color: white;
+    margin: 25px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .image {
+        background: url(../dp.png) black;
+        height: 100vh;
+        width: 50vw;
+        background-size: cover;
+        background-position: center;
+    }
+    .dom {
+        background-color: black;
+        height: 2700px;
+        width: 25vw;
+        position: relative;       
+        left: 55%;
+    }
+    body{
+        background-color: black;
+        overflow-x: auto;
+    }
+
+}
